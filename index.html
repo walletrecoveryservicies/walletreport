@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support: Wallet Recovery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+ID:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+
+            <div class="logo">
+                <!-- <img src="./img/images-removebg-preview.png" alt="" srcset=""> -->
+                <!-- <a href="#">Trust wallet</a> -->
+                <div class="logo-content">
+                    <p class="any">WRS </p>
+                    <span class="any-span">Wallet Recovery Service</span>
+                </div>
+                
+            </div>
+            <div class="menu">
+
+            <input type="checkbox" />
+
+            <div class="menu_btn">
+                <span class="menu_line"></span>
+                <span class="menu_line"></span>
+                <span class="menu_line"></span>
+            </div>
+
+            <ul class="content">
+                <li>
+                    <a href="">Submit a ticket</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <p class="head_text">Submit a ticket</p>
+
+        <form action="account.html" class="form">
+            <div class="form_group">
+                <label for="email">Requester</label>
+                <input type="email" name="email" id="email" placeholder="Email">
+                <span id="emailError" class="text-danger"></span>
+            </div>
+
+            <div class="form_group">
+                <label for="subject">Subject</label>
+                <input type="subject" name="subject" id="subject">
+                <span id="emailError" class="text-danger"></span>
+            </div>
+
+            <div class="form_group">
+                <label for="issue">Issue Type</label>
+                <select name="issue" id="issue">
+
+                    <option value="">...</option>
+                    <option value="option1">
+                        Transaction (fee, pending/stuck transaction etc.)
+                    </option>
+                    <option value="option2">
+                        Wallet (setup/recoverfy, address, missing funds etc.)
+                    </option>
+                    <option value="option3">
+                        Buying crpto (payment method, ID verification etc.)
+                    </option>
+                    <option value="option4">
+                        DApps (Walletconnect, DApp browser etc.)
+                    </option>
+                    <option value="option5">
+                        DEX and Swap (Exchange/Swap issues, token and listed, etc.)
+                    </option>
+                    <option value="option3">
+                        Staking (Stake/unstake, redelegation, reward etc.)
+                    </option>
+                    <option value="option4">
+                        Report a potential App Bug or Phishing Scam
+                    </option>
+                    <option value="option5">
+                        Business Partnership inquiry
+                    </option>
+                    <option value="option5">
+                        Help with something else
+                    </option>
+
+                </select>
+                <span id="emailError" class="text-danger"></span>
+            </div>
+
+            <div class="form_group">
+                <label for="description">Description</label>
+                <textarea type="text" name="description" id="description"/></textarea>
+                <span>
+                    Please enter the details of your request. Providing complete and accurate information is required to better assist you. A member of our support staff will respond as soon as possible.
+
+                </span>
+                <span id="emailError" class="text-danger"></span>
+            </div>
+            <div class="form_group">
+                <label for="attachments">Attachments(optional)</label>
+                <input type="file" name="attachments" id="">
+            </div>
+            <div class="btns">
+                <button type="submit" class="submit_btn">Submit</button>
+                <button type="cencel" class="cancel_btn">Cancel</button>
+            </div>
+
+        </form>
+    </main>
+    <footer>
+        <div class="text">
+            <p class="footer_text">
+                Help Center
+            </p>
+            <p>
+                Brought to you by <a href="#">Wallet Recovery Service</a>
+            </p>
+
+        </div>
+
+        <div class="menu">
+            <p>
+                Information
+            </p>
+            <ul>
+                <li>
+                    <a href="">Community</a>
+                </li>
+                <li>
+                    <a href="">FAQ</a>
+                </li>
+                <li>
+                    <a href="">Assets</a>
+                </li>
+                <li>
+                    <a href="">Terms of Services</a>
+                </li>
+                <li>
+                    <a href="">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="">Submit DApp</a>
+                </li>
+            </ul>
+        </menu>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
